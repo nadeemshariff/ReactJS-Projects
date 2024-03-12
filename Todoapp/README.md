@@ -19,3 +19,5 @@ Currently, two official plugins are available:
 6. toggle
 7. delete 
 8. make all complete
+
+Gettings for more information or trying to have a good database to store incoming data with some APIs like 
