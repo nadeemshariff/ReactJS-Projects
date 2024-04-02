@@ -19,5 +19,13 @@ This adds few new functionalities which is minimal and effective as bigger proje
 6. toggle
 7. delete 
 8. make all complete
+9. clear completed
+
+## Installation
+
+bash install.sh
+npm start
+npm run dev
+open http://localhost:5173/
 
 Gettings for more information or trying to have a good database to store incoming data with some APIs like 

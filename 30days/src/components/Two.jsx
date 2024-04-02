@@ -1,19 +1,32 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Two() {
+    const [count, setCount] = useState();
+
+    const addValue = () => {
+        setCount(count + 1)
+    }
+
+    const removeValue = () => {
+        setCount(count - 1)
+    }
+
   return (
-    <div>
-        <h2>Clickme</h2>
-        <div className='flex justify-evenly'>
-            <button className='px-5 py-5 bg-black text-white'>
-            +
-        </button>
-        <button className='px-5 py-5 bg-black text-white '>
-            -
-        </button>
-        </div>
-        
-    </div>
+    <>
+    <h1>Counter</h1>
+    <h2>Count: {Count}</h2>
+
+    <button onClick={addValue}>
+        Add{count}
+    </button>
+    <br />
+    <button onClick={removeValue}>
+        remove{count}
+    </button>
+    <footer>value: {count}</footer>
+
+
+    </>
   )
 }
 

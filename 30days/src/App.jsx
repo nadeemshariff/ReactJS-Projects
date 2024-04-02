@@ -5,7 +5,7 @@ import Two from './components/Two'
 function App() {
   return (
     <div>
-      <One />
+      {/* <One /> */}
       <Two />
     </div>
   )
